@@ -1,5 +1,7 @@
 package edu.neu.csye6200;
 
+import java.time.LocalDateTime;
+
 public class Item {
         private final String name;
         private double price;
@@ -32,6 +34,7 @@ public class Item {
             System.out.println("\nTotal: $" + total);
             System.out.println("Cash: $" + cash);
             System.out.println("Change: $" + change);
+            System.out.println("Date & Time: " + LocalDateTime.now());
             System.out.println("Revision: " + REVISION);
         }
 }
